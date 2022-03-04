@@ -44,51 +44,59 @@ function nameLength(name) {
 }
 
 function nameStart(name) {
-  return "The first letter of your name is " + name[0]
+  return "The first letter of your name is " + name[0];
 }
 
 function nameEnd(name) {
   
-  let lastIndex = name.length - 1
+  let lastIndex = name.length - 1;
 
-  return "The last letter of your name is " + name[lastIndex]
+  return "The last letter of your name is " + name[lastIndex];
 }
 
 function reverseName(name) {
   
   let arrName = name.split(""); 
-
   revName = arrName.reverse();
-  
   revName = revName.join("");
   
   return "Your name backwards is " + revName
      
 }
 
-function spiritAnimal(name){
-  if (name.length = 1){
-    return "Your spirit animal is a goose!";
-  }
-  if (name.length = 2){
-    return "Your spirit animal is a badger!";
-  }
-  if (name.length = 3){
-    return "Your spirit animal is an otter!";
-  }
-  if (name.length = 4){
-    return "Your spirit animal is a seagull!";
-  }
-  if (name.length = 5){
-    return "Your spirit animal is a salmon!";
-  }
-  if (name.length = 6){
-    return "Your spirit animal is a goat";
-  }
-  if (name.length = 7){
-    return "Your spirit animal is a deer!";
-  }
-  if (name.length >= 8){
-    return "Your spirit animal is a moose!";
-  }
+function spiritAnimal(name) {
+  
+  let length = name.length;
+  let spiritA = "animal";
+  
+  switch (length) {
+    case 1:
+      spiritA = "Your spirit animal is a goose!";
+      break;
+    case 2:
+      spiritA = "Your spirit animal is a badger!";
+      break;
+    case 3:
+      spiritA = "Your spirit animal is an otter!";
+      break;
+    case 4:
+      spiritA = "Your spirit animal is an seagull!";
+      break;
+    case 5:
+      spiritA = "Your spirit animal is an salmon!";
+      break;
+    case 6:
+      spiritA = "Your spirit animal is an goat!";
+      break;
+    case 7:
+      spiritA = "Your spirit animal is an deer!";
+      break;
+    case 8:
+      spiritA = "Your spirit animal is an moose!";
+      break;
+   };
+  return spiritA;
 }
+
+
+
