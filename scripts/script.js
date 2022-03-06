@@ -77,22 +77,22 @@ function spiritAnimal(name) {
       spiritA = "Your spirit animal is a badger!";
       break;
     case 3:
-      spiritA = "Your spirit animal is an otter!";
+      spiritA = "Your spirit animal is a whale!";
       break;
     case 4:
-      spiritA = "Your spirit animal is an seagull!";
+      spiritA = "Your spirit animal is a seagull!";
       break;
     case 5:
-      spiritA = "Your spirit animal is an salmon!";
+      spiritA = "Your spirit animal is a salmon!";
       break;
     case 6:
-      spiritA = "Your spirit animal is an goat!";
+      spiritA = "Your spirit animal is a goat!";
       break;
     case 7:
-      spiritA = "Your spirit animal is an deer!";
+      spiritA = "Your spirit animal is a deer!";
       break;
     case 8:
-      spiritA = "Your spirit animal is an moose!";
+      spiritA = "Your spirit animal is a moose!";
       break;
    };
   return spiritA;
